@@ -19,7 +19,7 @@ st.set_page_config(
 @st.cache()
 def load_data(nrows):  
     working_directory = os.getcwd()
-    filename = '/Downloads/2021-2022_NBA_Player_Stats.csv' 
+    filename = '2021-2022_NBA_Player_Stats.csv' 
     data_df = pd.read_csv(working_directory + filename,
                           delimiter=";", 
                           encoding="latin-1", 
